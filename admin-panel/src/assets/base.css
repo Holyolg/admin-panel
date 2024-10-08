@@ -1,0 +1,28 @@
+:root {
+  --primary-color: #1814f3;
+  --red-color: #fe5c73;
+  --gray-blue-color: #f5f7fa;
+  --gray-color: #b1b1b1;
+
+  --primary-text-color: #343c6a;
+  --secondary-text-color: #718ebf;
+
+  --large-mobile-font-size: 20px;
+  --small-mobile-font-size: 12px;
+  --mobile-font-size: 13px;
+  --small-font-size: 15px;
+  --base-font-size: 18px;
+  --large-font-size: 28px;
+
+  --rounded: 15px;
+  --rounded-large: 25px;
+}
+
+body {
+  min-height: 100vh;
+  font-size: var(--base-font-size);
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  color: var(--primary-text-color);
+  background-color: var(--gray-blue-color);
+}
